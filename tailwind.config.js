@@ -13,11 +13,22 @@ module.exports = {
       colors:{
         netflixBG:'#000000',
         netflixRed:'#db0000',
-        nexflixMX:'#564d4d',
+        netflixMX:'#564d4d',
         netflixRed2:'#831010',
+        transBlack:'rgba(0,0,0,0.7)',
+        netflixGray:'rgba(255,255,255,0.3)'
       },
       margin:{
         200:'200px'
+      },
+      backgroundImage:{
+        hero:"url('https://raw.githubusercontent.com/thatanjan/netflix-clone-yt/youtube/media//banner.jpg') bg-cover bg-no-repeat"
+      },
+      height:{
+        15:'60px'
+      },
+      width:{
+        400:'400px'
       }
 
     },
