@@ -19,7 +19,14 @@ module.exports = {
         netflixGray:'rgba(255,255,255,0.3)'
       },
       margin:{
-        200:'200px'
+        200:'200px',
+        100:'100px',
+        150:'150px'
+      },
+      padding:{
+        200:'200px',
+        100:'100px',
+        150:'150px'
       },
       backgroundImage:{
         hero:"url('https://raw.githubusercontent.com/thatanjan/netflix-clone-yt/youtube/media//banner.jpg') bg-cover bg-no-repeat"
