@@ -6,6 +6,7 @@ import Navbar from '@/components/Navbar'
 import HomeHero from '@/components/HomeHero'
 import HomeSectionTwo from '@/components/HomeSectionTwo'
 import HomeSectionThree from '@/components/HomeSectionThree'
+import HomeSectionFour from '@/components/HomeSectionFour'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +23,7 @@ export default function Home() {
        <HomeHero/>
        <HomeSectionTwo/>
        <HomeSectionThree/>
+       <HomeSectionFour/>
       </main>
     </>
   )
