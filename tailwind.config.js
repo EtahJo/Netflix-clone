@@ -28,6 +28,9 @@ module.exports = {
         100:'100px',
         150:'150px'
       },
+      width:{
+        300:'100px'
+      },
       backgroundImage:{
         hero:"url('https://raw.githubusercontent.com/thatanjan/netflix-clone-yt/youtube/media//banner.jpg') bg-cover bg-no-repeat"
       },

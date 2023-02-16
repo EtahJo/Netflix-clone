@@ -8,7 +8,7 @@
 @layer base{
   html{
     @apply bg-netflixBG;
-    font-family: Bebas Neue;
+    font-family: Helvetica Neue;
     margin:0;
     padding:0;
   }
