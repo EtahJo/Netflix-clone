@@ -1,4 +1,5 @@
 import React from 'react';
+import GetStarted from './GetStarted';
 import Navbar from './Navbar';
 
 const HomeHero = () => {
@@ -14,13 +15,7 @@ const HomeHero = () => {
        </h2>
        <p className='text-2xl text-white text-center py-5'>Watch anywhere. Cancel anytime.</p>
        <p className='text-2xl text-white text-center pb-5'>Ready to watch? Enter your email to create or restart your membership.</p>
-       <div className='flex w-full justify-center h-15 rounded-xl'>
-         <input 
-         placeholder='Email address'
-          type={'emails'} 
-          className="p-4 w-400"/>
-         <button className='bg-netflixRed text-white font-bold p-4 text-2xl'>{'Get Started >' }</button>
-       </div>
+     <GetStarted/>
      </div>
    </div>
   )
