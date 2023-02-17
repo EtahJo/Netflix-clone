@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
@@ -18,7 +19,10 @@ const Navbar = () => {
          p-2
          font-bold
          '>
-            Sign In
+          <Link href={'/login'}>
+          Sign In
+          </Link>
+          
         </button>
         
     </nav>
