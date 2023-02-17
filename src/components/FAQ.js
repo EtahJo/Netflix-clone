@@ -4,7 +4,7 @@ import QA from './QA'
 
 const FAQ = () => {
   return (
-    <div className='border-b-8 border-netflixGray py-100 flex flex-col px-150 '>
+    <div className='py-100 flex flex-col px-150 w-2/3 m-auto align-middle '>
         <h2 className='text-white font-bold text-5xl text-center mb-10'>Frequently Asked Questions</h2>
         <div>
             <QA question={'What is Netflix?'}>

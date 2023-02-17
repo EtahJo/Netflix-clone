@@ -9,6 +9,7 @@ import HomeSectionThree from '@/components/HomeSectionThree'
 import HomeSectionFour from '@/components/HomeSectionFour'
 import HomeSectionFive from '@/components/HomeSectionFive'
 import FAQ from '@/components/FAQ'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,6 +29,8 @@ export default function Home() {
        <HomeSectionFour/>
        <HomeSectionFive/>
        <FAQ/>
+       <div className='border-t-8 border-netflixGray '></div>
+       <Footer/>
       </main>
     </>
   )
