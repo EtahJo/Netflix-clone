@@ -19,9 +19,11 @@ const login = () => {
       
         <div className='bg-transTwo w-1/4 flex flex-col p-12 mx-auto mt-5 mb-12 pb-10'>
             <h2 className='text-4xl text-white my-4'>Sign In</h2>
-            <span className='flex flex-col'>
-                <label>Email or Phone Number</label>
-            <input type={'text'} placeholder='Email or Phone number' className='p-2 rounded-md my-2'/>
+            <span className='flex flex-col relative bg-netflixGray rounded-md py-2 '>
+                
+            <input type={'text'}  className='peer focus-within:outline-none bg-netflixGray focus-within:bg-transparent my-2'/>
+            <label className='absolute peer-focus-within:scale-50 peer-focus-within:origin-top-left text-xl 
+            '>Email or Phone Number</label>
             </span>
 
             <input type={'password'} placeholder='Password' className='p-2 rounded-md my-2'/>

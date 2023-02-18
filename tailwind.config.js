@@ -42,6 +42,16 @@ module.exports = {
       },
       width:{
         400:'400px'
+      },
+      transformOrigin:{
+        netflixInput:'top left'
+      },
+      translate:{
+        netflixInput:'translate(0, 23px) scale(1)',
+        netflixInput2 :'translate(0, 12px) scale(0.8)',
+      },
+      transitionDuration:{
+
       }
 
     },
