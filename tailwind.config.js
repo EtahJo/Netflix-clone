@@ -15,9 +15,9 @@ module.exports = {
         netflixRed:'#db0000',
         netflixMX:'#564d4d',
         netflixRed2:'#831010',
-        transBlack:'rgba(0,0,0,0.7)',
-        transTwo:'rgba(0,0,0,0.5)',
-        netflixGray:'rgba(255,255,255,0.3)',
+        transBlack:'rgba(0,0,0,0.6)',
+        transTwo:'rgba(0,0,0,0.6)',
+        netflixGray:'rgba(255,255,255,0.4)',
         netflixGray2:'#2d2d2d'
       },
       margin:{
