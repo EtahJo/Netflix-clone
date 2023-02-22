@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import Input from '@/components/Input';
 
 const login = () => {
   return (
@@ -25,7 +26,7 @@ const login = () => {
             <label className='absolute peer-focus-within:scale-50 peer-focus-within:origin-top-left text-xl bg-netflixGray peer-focus-within:bg-white w-full peer-focus-within:w-full
             '>Email or Phone Number</label>
             </span>
-
+            <Input/>
             <input type={'password'} placeholder='Password' className='p-2 rounded-md my-2'/>
             <button className='text-white bg-netflixRed rounded-md p-3 font-semibold mt-5'>Sign In</button>
             <span className='flex items-center justify-between'>
