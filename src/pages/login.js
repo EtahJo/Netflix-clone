@@ -20,14 +20,9 @@ const login = () => {
       
         <div className='bg-transTwo w-1/4 flex flex-col p-12 mx-auto mt-5 mb-12 pb-10'>
             <h2 className='text-4xl text-white my-4'>Sign In</h2>
-            <span className='flex flex-col relative rounded-md py-1'>
-                
-            <input type={'text'}  className=' focus-within:outline-none bg-transparent my-2 z-20 peer focus-within:bg-transparent'/>
-            <label className='absolute peer-focus-within:scale-50 peer-focus-within:origin-top-left text-xl bg-netflixGray peer-focus-within:bg-white w-full peer-focus-within:w-full
-            '>Email or Phone Number</label>
-            </span>
+          
             <Input/>
-            <input type={'password'} placeholder='Password' className='p-2 rounded-md my-2'/>
+            <Input/>
             <button className='text-white bg-netflixRed rounded-md p-3 font-semibold mt-5'>Sign In</button>
             <span className='flex items-center justify-between'>
                 <span>
