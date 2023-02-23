@@ -47,7 +47,7 @@ module.exports = {
         netflixInput:'top left'
       },
       translate:{
-        netflixInputY: '-30px',
+        netflixInputY: '-5px',
         netflixInputX: '10px'
       },
       scale:{

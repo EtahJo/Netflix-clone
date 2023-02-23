@@ -21,8 +21,8 @@ const login = () => {
         <div className='bg-transTwo w-1/4 flex flex-col p-12 mx-auto mt-5 mb-12 pb-10'>
             <h2 className='text-4xl text-white my-4'>Sign In</h2>
           
-            <Input/>
-            <Input/>
+            <Input id='email' type={'text'} label="Enter Email or Number"/>
+            <Input id='password' type={'password'} label="Password"/>
             <button className='text-white bg-netflixRed rounded-md p-3 font-semibold mt-5'>Sign In</button>
             <span className='flex items-center justify-between'>
                 <span>
